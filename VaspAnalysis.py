@@ -1,4 +1,4 @@
-import OutcarFinder3 as OutcarFinder
+import OutcarFinder5 as OutcarFinder
 
 
 OutcarFinder.StartFinder()                #you must first have this line to initialization
@@ -6,7 +6,7 @@ OutcarFinder.StartFinder()                #you must first have this line to init
 for key in  OutcarFinder.outcar_dir:
     
     OutcarFinder.PlotConvergenceLine(key)
-    OutcarFinder.OUT2XYZ(key)
+    OutcarFinder.OUT2PDB(key)
 
 #print(OutcarFinder.outcar_dir)
 
