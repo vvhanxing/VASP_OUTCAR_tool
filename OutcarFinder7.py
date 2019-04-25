@@ -58,7 +58,7 @@ def StartFinder():
                      print(numbers)
                      atoms_info = list(zip(atom_type,numbers)) 
 
-                if "energy  without entropy" in line :
+                if "energy without entropy" in line :
                     print("energy  without entropy=  " , line[30:45])
                     energy_without_entropy.append( float (line[30:45]))
                     
